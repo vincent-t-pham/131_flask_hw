@@ -12,11 +12,11 @@ def home():
         <h1> Welcome '''+  name +'''!</h1>
         <ahref="www.google.com">notgoogle</a>
 	{% for list in lists %}
-                <ul><li> + list + </li></ul>
+                \n<ul><li>+list+</li></ul>\n
         {% endfor %}
         </body>
 </html>
 '''
 
-#myobj.run()
+myobj.run()
 
