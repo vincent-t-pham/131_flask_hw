@@ -10,13 +10,13 @@ def home():
 <html>
         <body>
         <h1> Welcome '''+  name +'''!</h1>
-        <a href="/www.google.com/">not google</a>
-        {% for list in lists %}
-                <ul><li>{{ list }}</li></ul>
+        <ahref="www.google.com">notgoogle</a>
+	{% for list in lists %}
+                <ul><li> + list + </li></ul>
         {% endfor %}
         </body>
 </html>
 '''
 
-#myobj.run()
+myobj.run()
 
