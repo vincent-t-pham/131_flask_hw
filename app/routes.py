@@ -5,7 +5,7 @@ from wtforms import StringField, PasswordField, BooleanField, SubmitField
 from wtforms.validators import DataRequired
  
 class LoginForm(FlaskForm):
-    city = StringField('City', validators=[DataRequired()])
+    city = StringField('City Name', validators=[DataRequired()])
     submit = SubmitField('Sign In')
 
 name = "Lisa"
