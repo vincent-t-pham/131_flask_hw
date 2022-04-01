@@ -6,7 +6,7 @@ from wtforms.validators import DataRequired
  
 class LoginForm(FlaskForm):
     city = StringField('City Name', validators=[DataRequired()])
-    submit = SubmitField('Sign In')
+    submit = SubmitField('Submit')
 
 name = "Lisa"
 city_names = ['Paris', 'London', 'Rome', 'Tahiti']
